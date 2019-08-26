@@ -1,0 +1,25 @@
+.sech {
+  text-align: center;
+  font-size: 12px;
+  color: #888484;
+  display: flex;
+  position: relative;
+  margin-left: 5%;
+}
+.inp-sech{
+  border: 1px solid ;
+  width: 85%;
+  border-radius: 5px;
+}
+.sechlogn {
+  position: absolute;
+}
+.msg {
+  height: 15px;
+  width: 15px;
+  margin: 5px 0 0 5px;
+}
+.logn{
+  width: 14px;
+  height: 14px;
+}

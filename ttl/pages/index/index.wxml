@@ -1,1 +1,8 @@
-<view>问道</view>
+<view class="sech">
+  <input value="搜索关键字" class="inp-sech"></input>
+  <image src="/images/bell.png" class="msg"></image>
+  <image src="/images/search.png" class="msg sechlogn"></image>
+</view>
+<view class="ctn">
+  <text></text>
+</view>
