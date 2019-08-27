@@ -1,7 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/cms/cms"
+
   ],
   "tabBar": {
     "borderStyle": "white",
@@ -13,13 +16,13 @@
         "selectedIconPath": "images/icon/home-s.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/cms/cms",
         "text": "咨询",
         "iconPath": "images/icon/tickets.png",
         "selectedIconPath": "images/icon/order-s.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/user/user",
         "text": "我的",
         "iconPath": "images/icon/user.png",
         "selectedIconPath": "images/icon/solid-s.png"

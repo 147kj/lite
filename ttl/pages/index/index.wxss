@@ -10,6 +10,7 @@
   border: 1px solid ;
   width: 85%;
   border-radius: 5px;
+  padding: 0 10px 0 30px;
 }
 .sechlogn {
   position: absolute;
