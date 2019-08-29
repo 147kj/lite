@@ -3,6 +3,16 @@
   <image src="/images/bell.png" class="msg"></image>
   <image src="/images/search.png" class="msg sechlogn"></image>
 </view>
-<view class="ctn">
-  <text></text>
+<view class="quick-q tiwen">
+  <image src="/images/tiwen.png" class="msg"></image>
+  <view class="txt_1">
+  <view>快速提问</view>
+  <view class="tip_msg">描述概况，发布问题到社区协助解答。</view></view>
+</view>
+<view class="clearfix"></view>
+<view class="quick-q">
+  <image src="/images/lvshi.png" class="msg"></image>
+  <view class="txt_1">
+  <view>快速提问</view>
+  <view class="tip_msg">按类型快速寻找律师，进行咨询。</view></view>
 </view>

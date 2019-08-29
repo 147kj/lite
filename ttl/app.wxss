@@ -8,3 +8,17 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+.clearfix::after{
+  clear: both;
+  content: "";
+  height: 0;
+  display: block;
+}
+.fr{
+  position: relative;
+  float: right;
+}
+.fl{
+  position: relative;
+  float: left;
+}
