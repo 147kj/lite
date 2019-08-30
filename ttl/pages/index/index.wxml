@@ -1,9 +1,9 @@
 <view class="sech">
   <input value="搜索关键字" class="inp-sech"></input>
-  <navigator><image src="/images/bell.png" class="msg"></image></navigator>
+  <navigator hover-class="none"><image src="/images/bell.png" class="msg"></image></navigator>
   <image src="/images/search.png" class="msg sechlogn"></image>
 </view>
-<navigator class="quick-q tiwen">
+<navigator class="quick-q tiwen" hover-class="none">
   <image src="/images/tiwen.png" class="img1"></image>
   <view class="txt_1">
     <view class="h1">快速提问</view>
@@ -11,7 +11,7 @@
   </view>
 </navigator>
 <view class="clearfix"></view>
-<navigator class="quick-q">
+<navigator class="quick-q" hover-class="none">
   <image src="/images/lvshi.png" class="img1"></image>
   <view class="txt_1">
     <view class="h1">寻找律师</view>
@@ -21,23 +21,23 @@
 <view class="clearfix"></view>
 <view class="quick-q">
   <view class="h1">热门话题</view>
-  <navigator class="txt12 mor">更多 ></navigator>
+  <navigator class="txt12 mor" hover-class="none">更多 ></navigator>
 </view>
 <view class="clearfix"></view>
 <scroll-view class="quick-q remen" scroll-y="false" scroll-x="true" enable-flex="true">
-  <navigator class="cnter lvicon">
+  <navigator class="cnter lvicon" hover-class="none">
     <image src="/images/lvs_icon.png" class="img2"></image>
     <view class="txt12">婚姻家庭</view>
   </navigator>
-  <navigator class="cnter lvicon">
+  <navigator class="cnter lvicon" hover-class="none">
     <image src="/images/lvs_icon.png" class="img2"></image>
     <view class="txt12">婚姻家庭</view>
   </navigator>
-  <navigator class="cnter lvicon">
+  <navigator class="cnter lvicon" hover-class="none">
     <image src="/images/lvs_icon.png" class="img2"></image>
     <view class="txt12">婚姻家庭</view>
   </navigator>
-  <navigator class="cnter lvicon">
+  <navigator class="cnter lvicon" hover-class="none">
     <image src="/images/lvs_icon.png" class="img2"></image>
     <view class="txt12">婚姻家庭</view>
   </navigator>
@@ -45,7 +45,7 @@
 <view class="clearfix"></view>
 <view class="quick-q">
   <view class="h1">最新回答</view>
-  <navigator class="txt12 shuaxin">
+  <navigator class="txt12 shuaxin" hover-class="none">
     <view>换一批</view> <image src="/images/shuaxin.png" class="img2"></image></navigator>
 </view>
 <view class="clearfix"></view>
