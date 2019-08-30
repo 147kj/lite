@@ -22,3 +22,16 @@
   position: relative;
   float: left;
 }
+.h1{
+  font-size: 14px;
+  color: #5b5c5c;
+  width: 100px;
+}
+.txt12{
+  font-size:12px;
+  color: #888484;
+}
+.cnter{
+  text-align: center;
+  vertical-align: center;
+}
