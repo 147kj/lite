@@ -24,15 +24,7 @@
   <navigator class="txt12 mor">更多 ></navigator>
 </view>
 <view class="clearfix"></view>
-<scroll-view class="quick-q remen" scroll-y="false" scroll-x="true">
-  <navigator class="cnter lvicon">
-    <image src="/images/lvs_icon.png" class="img2"></image>
-    <view class="txt12">婚姻家庭</view>
-  </navigator>
-  <navigator class="cnter lvicon">
-    <image src="/images/lvs_icon.png" class="img2"></image>
-    <view class="txt12">婚姻家庭</view>
-  </navigator>
+<scroll-view class="quick-q remen" scroll-y="false" scroll-x="true" enable-flex="true">
   <navigator class="cnter lvicon">
     <image src="/images/lvs_icon.png" class="img2"></image>
     <view class="txt12">婚姻家庭</view>
@@ -66,5 +58,24 @@
     客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
     客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
   </view>
-  <view class="txt12"></view>
+</view>
+<view class="quick-q">
+  <view class="h1 wenti">
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+  </view>
+  <view class="txt12 daan">
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+  </view>
+</view>
+<view class="quick-q">
+  <view class="h1 wenti">
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+  </view>
+  <view class="txt12 daan">
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+  </view>
 </view>
