@@ -1,13 +1,81 @@
-<!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<view class="sech">
+  <input value="搜索关键字" class="inp-sech"></input>
+  <navigator hover-class="none"><image src="/images/bell.png" class="msg"></image></navigator>
+  <image src="/images/search.png" class="msg sechlogn"></image>
+</view>
+<navigator class="quick-q tiwen" hover-class="none">
+  <image src="/images/tiwen.png" class="img1"></image>
+  <view class="txt_1">
+    <view class="h1">快速提问</view>
+    <view class="tip_msg txt12">描述概况，发布问题到社区协助解答。</view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+</navigator>
+<view class="clearfix"></view>
+<navigator class="quick-q" hover-class="none">
+  <image src="/images/lvshi.png" class="img1"></image>
+  <view class="txt_1">
+    <view class="h1">寻找律师</view>
+    <view class="tip_msg txt12">按类型快速寻找律师，进行咨询。</view>
+  </view>
+</navigator>
+<view class="clearfix"></view>
+<view class="quick-q">
+  <view class="h1">热门话题</view>
+  <navigator class="txt12 mor" hover-class="none">更多 ></navigator>
+</view>
+<view class="clearfix"></view>
+<scroll-view class="quick-q remen" scroll-y="false" scroll-x="true" enable-flex="true">
+  <navigator class="cnter lvicon" hover-class="none">
+    <image src="/images/lvs_icon.png" class="img2"></image>
+    <view class="txt12">婚姻家庭</view>
+  </navigator>
+  <navigator class="cnter lvicon" hover-class="none">
+    <image src="/images/lvs_icon.png" class="img2"></image>
+    <view class="txt12">婚姻家庭</view>
+  </navigator>
+  <navigator class="cnter lvicon" hover-class="none">
+    <image src="/images/lvs_icon.png" class="img2"></image>
+    <view class="txt12">婚姻家庭</view>
+  </navigator>
+  <navigator class="cnter lvicon" hover-class="none">
+    <image src="/images/lvs_icon.png" class="img2"></image>
+    <view class="txt12">婚姻家庭</view>
+  </navigator>
+</scroll-view>
+<view class="clearfix"></view>
+<view class="quick-q">
+  <view class="h1">最新回答</view>
+  <navigator class="txt12 shuaxin" hover-class="none">
+    <view>换一批</view> <image src="/images/shuaxin.png" class="img2"></image></navigator>
+</view>
+<view class="clearfix"></view>
+<view class="quick-q">
+  <view class="h1 wenti">
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+  </view>
+  <view class="txt12 daan">
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+  </view>
+</view>
+<view class="quick-q">
+  <view class="h1 wenti">
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+  </view>
+  <view class="txt12 daan">
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+  </view>
+</view>
+<view class="quick-q">
+  <view class="h1 wenti">
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+  </view>
+  <view class="txt12 daan">
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
   </view>
 </view>
