@@ -1,13 +1,11 @@
-//index.js
-//获取应用实例
-const app = getApp()
+// pages/deployFunctions/deployFunctions.js
 Page({
 
   /**
-   * 页面初始数据
+   * 页面的初始数据
    */
   data: {
-    username: "张三"
+
   },
 
   /**
@@ -64,8 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  getNewList: function () {
-    console.log("刷新列表")
   }
 })

@@ -49,33 +49,13 @@
     <view>换一批</view> <image src="/images/shuaxin.png" class="img2"></image></view>
 </view>
 <view class="clearfix"></view>
-<view class="quick-q">
-  <view class="h1 wenti">
-    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
-  </view>
-  <view class="txt12 daan">
-    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
-    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
-    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
-  </view>
-</view>
-<view class="quick-q">
-  <view class="h1 wenti">
-    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
-  </view>
-  <view class="txt12 daan">
-    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
-    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
-    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
-  </view>
-</view>
-<view class="quick-q">
-  <view class="h1 wenti">
-    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
-  </view>
-  <view class="txt12 daan">
-    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
-    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
-    客户问：王律师您好！我在初中时因为过马路时被小轿车撞到脚部导致骨折，保险公司一直没有
+<view wx:for="{{qaList}}">
+  <view class="quick-q">
+    <view class="h1 wenti">
+      {{item.q}}
+    </view>
+    <view class="txt12 daan">
+      {{item.a}}
+    </view>
   </view>
 </view>
