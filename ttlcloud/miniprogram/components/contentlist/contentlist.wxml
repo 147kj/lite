@@ -1,0 +1,10 @@
+<view wx:for="{{qaList}}" wx:key="_id">
+  <view class="quick-q">
+    <view class="h1 wenti">
+      {{item.q}}
+    </view>
+    <view class="txt12 daan">
+      {{item.a}}
+    </view>
+  </view>
+</view>

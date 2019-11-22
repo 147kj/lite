@@ -1,0 +1,11 @@
+/* pages/searchList/searchList.wxss */
+.quick-q{
+  position: relative;
+  margin: 10px 5%;
+  min-width: 680rpx;
+}
+.mor{
+  position: absolute;
+  top:0px;
+  right: 0px;
+}

@@ -1,3 +1,4 @@
+@import './components/weui-wxss/dist/style/weui.wxss'
 /**app.wxss**/
 .container {
   display: flex;
@@ -6,7 +7,6 @@
   box-sizing: border-box;
   height: 100%;
   justify-content: space-between;
-  padding: 200rpx 0;
 }
 
 button {

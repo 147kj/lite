@@ -1,5 +1,4 @@
 const app = getApp()
-
 Page({
   data: {
     avatarUrl: './user-unlogin.png',
@@ -16,7 +15,14 @@ Page({
     onGetUserInfo: null,
     getOpenID: null,
   },
-
+  onShow: function () {
+    if (typeof this.getTabBar === 'function' &&
+      this.getTabBar()) {
+      this.getTabBar().setData({
+        selected: 1
+      })
+    }
+  },
   onLoad: function() {
     // 获取用户信息
     wx.getSetting({

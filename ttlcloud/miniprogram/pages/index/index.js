@@ -5,12 +5,24 @@ Page({
 
   /**
    * 页面初始数据
-   */
+   */ 
   data: {
-    username:"张三",
-    qaList:{}
-  },  
-
+    username: "张三",
+    qaList: {},
+    searchWord:""
+  },
+  setSearchWord :function(e){
+    //console.log(e.detail.value)
+    this.setData({ searchWord: e.detail.value})
+  },
+  searchContent : function(){
+    //console.log(this.data.searchWord)
+    if (this.data.searchWord!=""){
+      wx.navigateTo({
+        url: '../searchList/searchList?searchWord=' + this.data.searchWord,
+      })
+    }
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -31,7 +43,13 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    
+    if (typeof this.getTabBar === 'function' &&
+      this.getTabBar()) {
+      this.getTabBar().setData({
+        selected: 0
+      })
+    }
+    this.setData({ searchWord:""})
   },
 
   /**
@@ -109,5 +127,5 @@ Page({
         // })
       }
     })
-  },
+  }
 })

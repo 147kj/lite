@@ -1,11 +1,20 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/cms/cms",
-    "pages/user/user"
+    "pages/index2/index2",
+    "pages/im/room/room",
+    "pages/user/user",
+    "custom-tab-bar/index",
+    "pages/searchList/searchList"
   ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "问道",
+    "navigationBarTextStyle": "black"
+  },
   "tabBar": {
-    "borderStyle": "white",
+    "custom": true,
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -14,8 +23,8 @@
         "selectedIconPath": "images/icon/home-s.png"
       },
       {
-        "pagePath": "pages/cms/cms",
-        "text": "咨询",
+        "pagePath": "pages/im/room/room",
+        "text": "聊天室",
         "iconPath": "images/icon/tickets.png",
         "selectedIconPath": "images/icon/order-s.png"
       },
@@ -27,11 +36,6 @@
       }
     ]
   },
-  "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "问道",
-    "navigationBarTextStyle": "black"
-  },
+  "usingComponents": {},
   "sitemapLocation": "sitemap.json"
 }
