@@ -1,4 +1,4 @@
-@import './components/weui-wxss/dist/style/weui.wxss'
+@import './components/weui-wxss/dist/style/weui.wxss';
 /**app.wxss**/
 .container {
   display: flex;
@@ -31,7 +31,6 @@ page {
 
 .userinfo, .uploader, .tunnel {
   margin-top: 40rpx;
-  height: 140rpx;
   width: 100%;
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -164,12 +163,14 @@ page {
   display: block;
 }
 .fr{
-  position: relative;
+  position: absolute;
   float: right;
+  right: 0;
 }
 .fl{
-  position: relative;
+  position: absolute;
   float: left;
+  left: 0;
 }
 .h1{
   font-size: 14px;
@@ -178,6 +179,10 @@ page {
 }
 .txt12{
   font-size:12px;
+  color: #888484;
+}
+.txt10{
+  font-size:10px;
   color: #888484;
 }
 .cnter{

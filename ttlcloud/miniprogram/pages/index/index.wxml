@@ -41,13 +41,13 @@
     <view>换一批</view> <image src="/images/shuaxin.png" class="img2"></image></view>
 </view>
 <view class="clearfix"></view>
-<view wx:for="{{qaList}}" wx:key="_id">
-  <view class="quick-q">
-    <view class="h1 wenti">
-      {{item.q}}
-    </view>
-    <view class="txt12 daan">
-      {{item.a}}
-    </view>
-  </view>
+<view class="container">
+  <contentlist
+    style="width: 100%; height: 100%"
+    searchWord=""
+    startNum="0"
+    endNum="10"
+    isRandom="{{isRandom}}"
+    title="搜索结果"
+  ></contentlist>
 </view>

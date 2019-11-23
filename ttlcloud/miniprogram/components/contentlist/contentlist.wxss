@@ -1,12 +1,13 @@
 .quick-q{
   position: relative;
-  margin: 10px 5%;
+  margin: 10px 5% 0 5%;
   min-width: 680rpx;
 }
 .wenti{
   width: 100%;
   max-height: 40px;
   overflow: hidden;
+
 }
 .daan{
   margin-top: 8px;
@@ -21,4 +22,29 @@
 .txt12{
   font-size:12px;
   color: #888484;
+}
+.qadetail{
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  flex-flow : row;
+  margin-bottom: 20px;
+}
+.img3{
+  width: 10px;
+  height: 10px;
+}
+.txt10{
+  font-size:10px;
+  color: #888484;
+}
+.fr{
+  position: absolute;
+  float: right;
+  right: 0;
+}
+.fl{
+  position: absolute;
+  float: left;
+  left: 0;
 }

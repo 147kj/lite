@@ -95,3 +95,13 @@
   max-height: 54px;
   overflow: hidden;
 }
+.qadetail{
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  flex-flow : row;
+}
+.img3{
+  width: 10px;
+  height: 10px;
+}

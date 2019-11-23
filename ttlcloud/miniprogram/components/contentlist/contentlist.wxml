@@ -6,5 +6,12 @@
     <view class="txt12 daan">
       {{item.a}}
     </view>
-  </view>
+    <view class="txt10 qadetail">
+      <view><image src="{{item.userIcon}}" class="img3"></image></view>
+      <view style="margin-left:5px;">{{item.askUser}}</view>
+      <view style="margin-left:10px;">{{item.userLab}}</view>
+      <view style="margin-left:10px;">从业{{item.userYears}}年</view>
+      <view wx:if="{{item.askLab === '1'}}" class="fr">优质回答</view>
+    </view>
+  </view> 
 </view>

@@ -9,7 +9,7 @@
     searchWord="{{searchWord}}"
     startNum="0"
     endNum="10"
-    isRandom="true"
+    isRandom="0"
     title="搜索结果"
   ></contentlist>
 </view>
